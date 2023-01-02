@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="index.css" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<script src="index.js"></script> 
+</head>
+<body>
+    <div class="card">
+        <h1 id="card-title">Weather App</h1>
+            <form class="search-bar">
+                <input type="search" id="input-bar-box" placeholder="Search for a location...">
+                <input type="submit" id="input-bar-button" value="Search">
+            </form>
+        <div class="results" class="grid">
+            <h2 class="location"></h2>
+            <img class="weather-img" class="grid-item">
+            <h3 class="temp" class="grid-item"></h3>
+            <h3 class="desc" class="grid-item"></h3>
+            <h3 class="humidity" class="grid-item"></h3>
+            <h3 class="visibility" class="grid-item"></h3>
+        </div>
+    </div>
+</body>
+</html>

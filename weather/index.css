@@ -1,0 +1,91 @@
+/* top left right bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    align-content: center;
+    min-width: 300px;
+}
+
+.card {
+    background:lightblue;
+    padding: 2em;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 650px;
+    margin-top: 5%;
+    min-width: 200px;
+}
+
+#card-title {
+    display: flex;
+    justify-content: start;
+    margin-top: 1%;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    display: flex;
+    height: 40px;
+    justify-content: start;
+    margin: inherit;
+    width: 100%;
+    margin-bottom: 20px;
+    min-width: 80px;
+}
+
+#input-bar-box {
+    width: inherit;
+    margin-right: 20px;
+    min-width: inherit;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#input-bar-button {
+    min-width: inherit;
+    border-radius: 10px;
+}
+
+.results {
+    border-radius: 25px;
+    padding: 1em 2em 2em 2em;
+    display: inline-block;
+}
+
+.location {
+    display: none;
+}
+
+.weather-img {
+    display: none;
+    height: 100px;
+    margin: 0 5%;
+    
+}
+
+.temp {
+    margin-top: 1%;
+    display: none;
+}
+
+.humidity {
+    margin-top: 1%;
+    display: none;
+}
+
+.visibility {
+    margin-top: 1%;
+    display: none;
+}
+
+.desc {
+    margin-top: 1%;
+    display: none;
+}
